@@ -7,10 +7,20 @@ const staffList = [
   {name: 'Lopes T', age: 47, occupation: 'developer', gender: 'male'}
 ]
 
-staffList.map(onlyName)
+const emp = staffList.map(onlyName)
 
-function onlyName(e){
-  return 'hello'
+const empFemale = staffList.filter(onlyFemale)
+
+function onlyFemale(e){
+  return e.male = false
 }
 
-console.log(onlyName)
+function onlyName(e){
+  return e.name 
+}
+
+console.log('-----------------------------')
+
+console.log('------------------------------')
+
+console.log(empFemale)
