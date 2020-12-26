@@ -1,3 +1,3 @@
 # Javascript Methods using Push-Map-Filter
  
-those methods push, map & filter iterate through an array in javascript es5, es6
+some examole of js methods push, map & filter iterate through an array in javascript es5, es6
